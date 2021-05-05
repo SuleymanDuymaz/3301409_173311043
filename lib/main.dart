@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/BirinciEkran.dart';
-import 'package:flutter_app/HakkindaEkran.dart';
 import 'package:flutter_app/TaltinciEkran.dart';
 import 'package:flutter_app/TbesinciEkran.dart';
 import 'package:flutter_app/TdokuzuncuEkran.dart';
@@ -72,15 +71,6 @@ class _SoruSayfasiState extends State<SoruSayfasi> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        RaisedButton(
-          child: Text("HAKKINDA"),
-          color: Colors.white,
-          onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => HakkindaEkran()));
-          },
-        ),
-
         //  Image.asset('assets/abrakadabra.jpg'),
         // Image.asset('assets/altın.jpg'),
         Expanded(

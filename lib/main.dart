@@ -195,7 +195,7 @@ class _SoruSayfasiState extends State<SoruSayfasi> {
           ],
         ),
         Row(
-          children: <Widget>[
+            children: <Widget>[
             Expanded(
               child: FlatButton(
                   color: Colors.deepPurpleAccent,

@@ -24,7 +24,7 @@ class _HakkindaEkranState extends State<HakkindaEkran> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Bu uygulama Merve Koçak tarafından 24 Nisan 2021 Cumartesi günü yapılmıştır.",
+              "Bu uygulama Süleyman Duymaz tarafından 24 Nisan 2021 Cumartesi günü yapılmıştır.",
               style: TextStyle(color: Colors.white, fontSize: 20),
             ),
           ],
